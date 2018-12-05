@@ -26,14 +26,7 @@
         }
       ],
       "addHeaderSearchPath": [
-        "\"$(SRCROOT)/{{{projectName}}}/Libraries/RollbarReactNative/**\""
-      ],
-      "addHeader": [
-        {
-          "path": "RollbarReactNative/RollbarReactNative.h",
-          "group": "Libraries",
-          "public": true
-        }
+        "\"$(SRCROOT)/{{{projectName}}}/Libraries/RollbarReactNative\""
       ]
     }
   }
