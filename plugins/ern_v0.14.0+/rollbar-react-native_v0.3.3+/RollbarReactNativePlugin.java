@@ -9,7 +9,7 @@ import com.facebook.react.ReactInstanceManagerBuilder;
 import com.facebook.react.ReactPackage;
 import com.rollbar.RollbarReactNative;
 
-public class RollbarPlugin implements ReactPlugin {
+public class RollbarReactNativePlugin implements ReactPlugin {
 
     public ReactPackage hook(@NonNull Application application, @Nullable ReactPluginConfig config) {
         return RollbarReactNative.getPackage();
