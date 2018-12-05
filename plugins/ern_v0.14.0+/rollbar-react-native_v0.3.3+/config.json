@@ -1,6 +1,6 @@
 {
   "android": {
-    "root": ".",
+    "root": "./",
     "moduleName": "android",
     "dependencies": [
       "com.rollbar:rollbar-api:1.2.0",
