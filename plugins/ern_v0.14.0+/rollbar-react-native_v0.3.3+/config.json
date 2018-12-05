@@ -11,8 +11,16 @@
   "ios": {
     "copy": [
       {
-        "source": "ios/**",
+        "source": "ios/RollbarReactNative.*",
         "dest": "{{{projectName}}}/Libraries/RollbarReactNative"
+      },
+      {
+        "source": "ios/rollbar-ios/Rollbar*",
+        "dest": "{{{projectName}}}/Libraries/RollbarReactNative/rollbar-ios"
+      },
+      {
+        "source": "ios/rollbar-ios/KSCrash/iOS*",
+        "dest": "{{{projectName}}}/Libraries/RollbarReactNative/rollbar-ios/KSCrash"
       }
     ],
     "pbxproj": {
