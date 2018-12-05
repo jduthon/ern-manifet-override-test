@@ -1,0 +1,6 @@
+[
+  {
+    "platformVersion": "0.26.x",
+    "targetNativeDependencies": ["rollbar-react-native@0.3.3"]
+  }
+]

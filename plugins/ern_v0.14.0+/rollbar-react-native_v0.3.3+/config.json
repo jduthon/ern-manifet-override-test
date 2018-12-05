@@ -1,0 +1,33 @@
+{
+  "android": {
+    "root": ".",
+    "moduleName": "android",
+    "dependencies": [
+      "com.rollbar:rollbar-api:1.2.0",
+      "com.rollbar:rollbar-java:1.2.0",
+      "com.rollbar:rollbar-android:1.2.0@aar"
+    ]
+  },
+  "ios": {
+    "copy": [
+      {
+        "source": "ios/**",
+        "dest": "{{{projectName}}}/Libraries/RollbarReactNative"
+      }
+    ],
+    "pbxproj": {
+      "addProject": [
+        {
+          "path": "RollbarReactNative/RollbarReactNative.xcodeproj",
+          "group": "Libraries",
+          "staticLibs": [
+            { "name": "libRollbar.a", "target": "RollbarReactNative" }
+          ]
+        }
+      ],
+      "addHeaderSearchPath": [
+        "\"$(SRCROOT)/{{{projectName}}}/Libraries/RollbarReactNative/**\""
+      ]
+    }
+  }
+}
