@@ -27,6 +27,20 @@
       ],
       "addHeaderSearchPath": [
         "\"$(SRCROOT)/{{{projectName}}}/Libraries/RollbarReactNative/**\""
+      ],
+      "addHeader": [
+        {
+          "path": "RollbarReactNative/RollbarReactNative.h",
+          "group": "RollbarReactNative",
+          "public": true
+        }
+      ],
+      "addSource": [
+        {
+          "path": "RollbarReactNative/RollbarReactNative.m",
+          "group": "RollbarReactNative",
+          "public": true
+        }
       ]
     }
   }
