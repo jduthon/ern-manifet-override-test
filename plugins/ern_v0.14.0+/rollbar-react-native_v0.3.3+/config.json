@@ -23,7 +23,7 @@
           "staticLibs": [
             {
               "name": "libRollbarReactNative.a",
-              "target": "Rollbar"
+              "target": "RollbarReactNative"
             }
           ]
         }
