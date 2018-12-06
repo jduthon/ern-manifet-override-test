@@ -16,7 +16,6 @@
       }
     ],
     "pbxproj": {
-      "addStaticLibrary": ["libRollbar.a"],
       "addProject": [
         {
           "addAsTargetDependency": true,
