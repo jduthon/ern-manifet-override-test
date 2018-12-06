@@ -21,7 +21,10 @@
           "path": "RollbarReactNative/RollbarReactNative.xcodeproj",
           "group": "Libraries",
           "staticLibs": [
-            { "name": "libRollbar.a", "target": "RollbarReactNative" }
+            {
+              "name": "libRollbarReactNative.a",
+              "target": "RollbarReactNative"
+            }
           ]
         }
       ],
