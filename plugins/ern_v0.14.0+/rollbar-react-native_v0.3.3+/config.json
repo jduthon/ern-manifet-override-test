@@ -19,11 +19,21 @@
       "addProject": [
         {
           "path": "RollbarReactNative/RollbarReactNative.xcodeproj",
-          "group": "Libraries",
+          "group": "RollbarReactNative",
           "staticLibs": [
             {
               "name": "libRollbarReactNative.a",
               "target": "RollbarReactNative"
+            }
+          ]
+        },
+        {
+          "path": "RollbarReactNative/rollbar-ios/Rollbar.xcodeproj",
+          "group": "RollbarReactNative",
+          "staticLibs": [
+            {
+              "name": "libRollbar.a",
+              "target": "Rollbar"
             }
           ]
         }
