@@ -23,14 +23,13 @@
           "staticLibs": [
             {
               "name": "libRollbarReactNative.a",
-              "target": "RollbarReactNative"
+              "target": "Rollbar"
             }
           ]
         }
       ],
       "addHeaderSearchPath": [
-        "\"$(SRCROOT)/{{{projectName}}}/Libraries/RollbarReactNative/**\"",
-        "\"$(SRCROOT)/{{{projectName}}}/Libraries/RollbarReactNative/rollbar-ios/Rollbar/**\""
+        "\"$(SRCROOT)/{{{projectName}}}/Libraries/RollbarReactNative/**\""
       ]
     },
     "replaceInFile": [
