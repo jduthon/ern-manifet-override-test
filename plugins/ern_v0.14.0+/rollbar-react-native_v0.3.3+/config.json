@@ -28,18 +28,6 @@
       "addHeaderSearchPath": [
         "\"$(SRCROOT)/{{{projectName}}}/Libraries/RollbarReactNative/**\""
       ]
-    },
-    "replaceInFile": [
-      {
-        "path": "{{projectName}}/Libraries/RollbarReactNative/RollbarReactNative.xcodeproj/project.pbxproj",
-        "string": "../node_modules/rollbar-react-native/ios",
-        "replaceWith": "Libraries/RollbarReactNative"
-      },
-      {
-        "path": "{{projectName}}/Libraries/RollbarReactNative/RollbarReactNative.h",
-        "string": "\"Rollbar.h\"",
-        "replaceWith": "<Rollbar/Rollbar.h>"
-      }
-    ]
+    }
   }
 }
