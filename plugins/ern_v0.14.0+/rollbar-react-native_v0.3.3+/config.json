@@ -13,8 +13,13 @@
       {
         "source": "ios/*",
         "dest": "{{{projectName}}}/Libraries/RollbarReactNative"
+      },
+      {
+        "source": "ios/rollbar-ios/Rollbar.h",
+        "dest": "{{projectName}}/Libraries/RollbarReactNative"
       }
     ],
+    "containerPublicHeader": ["Rollbar.h"],
     "pbxproj": {
       "addProject": [
         {
