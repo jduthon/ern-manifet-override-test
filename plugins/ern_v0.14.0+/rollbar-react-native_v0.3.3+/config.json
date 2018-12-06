@@ -26,15 +26,8 @@
         }
       ],
       "addHeaderSearchPath": [
-        "\"$(SRCROOT)/{{{projectName}}}/Libraries/RollbarReactNative\""
+        "\"$(SRCROOT)/{{{projectName}}}/Libraries/RollbarReactNative/**\""
       ]
-    },
-    "replaceInFile": [
-      {
-        "path": "{{{projectName}}}/Libraries/RollbarReactNative/RollbarReactNative.h",
-        "string": "\"Rollbar.h\"",
-        "replaceWith": "#if __has_include(<Rollbar/Rollbar.h>)\n#import <Rollbar/Rollbar.h>\n#elif __has_include(\"Rollbar.h\")\n#import \"Rollbar.h\"\n#else\n#import \"Rollbar/Rollbar.h\"\n#endif"
-      }
-    ]
+    }
   }
 }
