@@ -19,7 +19,7 @@
         "dest": "{{projectName}}/Libraries/RollbarReactNative"
       }
     ],
-    "containerPublicHeader": ["Rollbar.h"],
+    "containerPublicHeader": ["RollbarReactNative/rollbar-ios/Rollbar.h"],
     "pbxproj": {
       "addProject": [
         {
