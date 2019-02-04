@@ -7,7 +7,7 @@
   "ios": {
     "copy": [
       {
-        "source": "./src/ios",
+        "source": "./src/ios/*",
         "dest": "{{{projectName}}}/Libraries/LottieReactNative"
       }
     ],
