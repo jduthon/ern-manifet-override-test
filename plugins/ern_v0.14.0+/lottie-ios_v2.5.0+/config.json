@@ -18,14 +18,14 @@
           "group": "Libraries",
           "staticLibs": [
             {
-              "name": "libLottie.a",
-              "target": "LottieLibraryIOS"
+              "name": "Lottie.framework",
+              "target": "Lottie_iOS"
             }
           ]
         }
       ],
       "addHeaderSearchPath": [
-        "\"$(SRCROOT)/{{{projectName}}}/Libraries/lottie-ios/Classes/PublicHeaders/**\""
+        "\"$(SRCROOT)/{{{projectName}}}/Libraries/lottie-ios/Classes/PublicHeaders/*\""
       ]
     }
   }
