@@ -1,0 +1,29 @@
+{
+  "ios": {
+    "copy": [
+      {
+        "source": "./lottie-ios",
+        "dest": "{{{projectName}}}/Libraries/lottie-ios"
+      },
+      {
+        "source": "./Lottie.xcodeproj",
+        "dest": "{{{projectName}}}/Libraries/lottie-ios/Lottie.xcodeproj"
+      }
+    ],
+    "pbxproj": {
+      "addProject": [
+        {
+          "addAsTargetDependency": true,
+          "path": "lottie-ios/Lottie.xcodeproj",
+          "group": "Libraries",
+          "staticLibs": [
+            {
+              "name": "libLottieIos.a",
+              "target": "LottieIos"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

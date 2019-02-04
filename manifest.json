@@ -1,6 +1,11 @@
 [
   {
-    "platformVersion": "0.26.x",
-    "targetNativeDependencies": ["rollbar-react-native@0.3.3", "react-native-fabric@0.5.2"]
+    "platformVersion": "0.27.x",
+    "targetNativeDependencies": [
+      "rollbar-react-native@0.3.3",
+      "react-native-fabric@0.5.2",
+      "lottie-ios@2.5.2",
+      "lottie-react-native@2.5.11"
+    ]
   }
 ]
