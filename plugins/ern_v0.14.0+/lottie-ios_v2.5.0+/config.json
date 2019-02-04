@@ -18,8 +18,8 @@
           "group": "Libraries",
           "staticLibs": [
             {
-              "name": "libLottieIos.a",
-              "target": "LottieIos"
+              "name": "libLottie.a",
+              "target": "LottieLibraryIOS"
             }
           ]
         }
