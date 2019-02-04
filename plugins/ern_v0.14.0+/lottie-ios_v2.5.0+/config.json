@@ -7,7 +7,7 @@
       },
       {
         "source": "./Lottie.xcodeproj",
-        "dest": "{{{projectName}}}/Libraries/lottie-ios/Lottie.xcodeproj"
+        "dest": "{{{projectName}}}/Libraries/lottie-ios"
       }
     ],
     "pbxproj": {
