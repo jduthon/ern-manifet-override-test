@@ -25,7 +25,7 @@
         }
       ],
       "addHeaderSearchPath": [
-        "\"$(SRCROOT)/{{{projectName}}}/Libraries/lottie-ios/Classes/PublicHeaders/*\""
+        "\"$(SRCROOT)/{{{projectName}}}/Libraries/lottie-ios/Classes/PublicHeaders\""
       ]
     }
   }
