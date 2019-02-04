@@ -23,6 +23,9 @@
             }
           ]
         }
+      ],
+      "addHeaderSearchPath": [
+        "\"$(SRCROOT)/{{{projectName}}}/Libraries/lottie-ios/Lottie/**\""
       ]
     }
   }
