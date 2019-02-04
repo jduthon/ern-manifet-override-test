@@ -1,6 +1,6 @@
 [
   {
-    "platformVersion": "0.27.x",
+    "platformVersion": "0.28.x",
     "targetNativeDependencies": [
       "rollbar-react-native@0.3.3",
       "react-native-fabric@0.5.2",
