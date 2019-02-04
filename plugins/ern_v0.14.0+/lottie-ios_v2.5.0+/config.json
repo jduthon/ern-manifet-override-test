@@ -23,7 +23,8 @@
           "frameworks": [
             {
               "name": "Lottie.framework",
-              "target": "Lottie_iOS"
+              "target": "Lottie_iOS",
+              "targetReference": "Lottie"
             }
           ]
         }
