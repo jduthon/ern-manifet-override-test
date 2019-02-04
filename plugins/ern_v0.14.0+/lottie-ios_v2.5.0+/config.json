@@ -2,19 +2,23 @@
   "ios": {
     "copy": [
       {
-        "source": "./lottie-ios/**",
-        "dest": "{{{projectName}}}/Libraries/lottie-ios"
+        "source": "./lottie-ios",
+        "dest": "{{{projectName}}}/Libraries/Lottie"
       },
       {
         "source": "./Lottie.xcodeproj",
-        "dest": "{{{projectName}}}/Libraries/lottie-ios"
+        "dest": "{{{projectName}}}/Libraries/Lottie"
+      },
+      {
+        "source": "./Lottie",
+        "dest": "{{{projectName}}}/Libraries/Lottie"
       }
     ],
     "pbxproj": {
       "addProject": [
         {
           "addAsTargetDependency": true,
-          "path": "lottie-ios/Lottie.xcodeproj",
+          "path": "Lottie/Lottie.xcodeproj",
           "group": "Libraries",
           "staticLibs": [
             {
@@ -23,9 +27,6 @@
             }
           ]
         }
-      ],
-      "addHeaderSearchPath": [
-        "\"$(SRCROOT)/{{{projectName}}}/Libraries/lottie-ios/Classes/PublicHeaders\""
       ]
     }
   }
