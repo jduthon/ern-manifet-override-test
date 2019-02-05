@@ -17,7 +17,6 @@
     "pbxproj": {
       "addProject": [
         {
-          "addAsTargetDependency": true,
           "path": "Lottie/Lottie.xcodeproj",
           "group": "Libraries",
           "frameworks": [
