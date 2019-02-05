@@ -12,6 +12,6 @@ import com.airbnb.android.react.lottie.LottiePackage;
 public class LottieReactNativePlugin implements ReactPlugin {
 
     public ReactPackage hook(@NonNull Application application, @Nullable ReactPluginConfig config) {
-        return LottiePackage.getPackage();
+        return new LottiePackage();
     }
 }
