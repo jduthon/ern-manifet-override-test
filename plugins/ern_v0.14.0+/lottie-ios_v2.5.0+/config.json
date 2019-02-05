@@ -22,15 +22,8 @@
           "group": "Libraries",
           "frameworks": [
             {
-              "name": "Lottie.framework",
-              "target": "Lottie_iOS",
-              "targetReference": "Lottie_iOS"
-            }
-          ],
-          "staticLibs": [
-            {
-              "name": "libLotti.a",
-              "target": "LottieLibraryIOS"
+              "name": "Lottie",
+              "target": "Lottie_iOS"
             }
           ]
         }
