@@ -20,7 +20,7 @@
           "staticLibs": [
             {
               "name": "libLottieReactNative.a",
-              "target": "LottieReactNative"
+              "target": "LottieReactNativeb"
             }
           ]
         }
