@@ -17,13 +17,14 @@
     "pbxproj": {
       "addProject": [
         {
+          "addAsTargetDependency": true,
           "path": "Lottie/Lottie.xcodeproj",
           "group": "Libraries",
           "frameworks": [
             {
               "name": "Lottie.framework",
               "target": "Lottie_iOS",
-              "targetReference": "Lottie"
+              "targetReference": "Lottie_iOS"
             }
           ]
         }
