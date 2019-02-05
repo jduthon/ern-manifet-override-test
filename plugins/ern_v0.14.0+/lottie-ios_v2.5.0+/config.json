@@ -24,7 +24,7 @@
             {
               "name": "Lottie.framework",
               "target": "Lottie_iOS",
-              "targetReference": "Lottie_iOS"
+              "targetReference": "223A89461E89AAA70112745E"
             }
           ]
         }
