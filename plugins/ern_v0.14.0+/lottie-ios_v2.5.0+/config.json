@@ -29,7 +29,7 @@
           ],
           "staticLibs": [
             {
-              "name": "libLottie.a",
+              "name": "libLotti.a",
               "target": "LottieLibraryIOS"
             }
           ]
