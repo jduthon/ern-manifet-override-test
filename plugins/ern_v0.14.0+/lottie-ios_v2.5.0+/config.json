@@ -23,6 +23,7 @@
           "frameworks": [
             {
               "name": "Lottie.framework",
+              "productReference": "Lottie_iOS",
               "target": "Lottie_iOS",
               "targetReference": "223A89461E89AAA70112745E"
             }
