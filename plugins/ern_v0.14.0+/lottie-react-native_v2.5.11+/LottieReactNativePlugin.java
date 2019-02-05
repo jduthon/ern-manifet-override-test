@@ -9,7 +9,7 @@ import com.facebook.react.ReactInstanceManagerBuilder;
 import com.facebook.react.ReactPackage;
 import com.airbnb.android.react.lottie.LottiePackage;
 
-public class RollbarReactNativePlugin implements ReactPlugin {
+public class LottieReactNativePlugin implements ReactPlugin {
 
     public ReactPackage hook(@NonNull Application application, @Nullable ReactPluginConfig config) {
         return LottiePackage.getPackage();
