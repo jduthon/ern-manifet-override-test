@@ -18,7 +18,7 @@
       "addProject": [
         {
           "path": "Lottie/Lottie.xcodeproj",
-          "group": "Frameworks",
+          "group": "Libraries",
           "frameworks": [
             {
               "name": "Lottie.framework",
