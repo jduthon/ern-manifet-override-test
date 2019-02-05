@@ -3,15 +3,15 @@
     "copy": [
       {
         "source": "./lottie-ios",
-        "dest": "{{{projectName}}}/Libraries/Lottie"
+        "dest": "{{{projectName}}}/Frameworks/Lottie"
       },
       {
         "source": "./Lottie.xcodeproj",
-        "dest": "{{{projectName}}}/Libraries/Lottie"
+        "dest": "{{{projectName}}}/Frameworks/Lottie"
       },
       {
         "source": "./Lottie",
-        "dest": "{{{projectName}}}/Libraries/Lottie"
+        "dest": "{{{projectName}}}/Frameworks/Lottie"
       }
     ],
     "pbxproj": {
@@ -19,7 +19,7 @@
         {
           "addAsTargetDependency": true,
           "path": "Lottie/Lottie.xcodeproj",
-          "group": "Libraries",
+          "group": "Frameworks",
           "frameworks": [
             {
               "name": "Lottie.framework",
