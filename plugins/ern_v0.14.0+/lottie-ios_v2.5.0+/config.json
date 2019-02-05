@@ -3,15 +3,15 @@
     "copy": [
       {
         "source": "./lottie-ios",
-        "dest": "{{{projectName}}}/Frameworks/Lottie"
+        "dest": "{{{projectName}}}/Libraries/Lottie"
       },
       {
         "source": "./Lottie.xcodeproj",
-        "dest": "{{{projectName}}}/Frameworks/Lottie"
+        "dest": "{{{projectName}}}/Libraries/Lottie"
       },
       {
         "source": "./Lottie",
-        "dest": "{{{projectName}}}/Frameworks/Lottie"
+        "dest": "{{{projectName}}}/Libraries/Lottie"
       }
     ],
     "pbxproj": {
