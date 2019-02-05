@@ -22,8 +22,8 @@
           "group": "Libraries",
           "frameworks": [
             {
-              "name": "Lottie",
-              "target": "Lottie_iOS"
+              "name": "Lottie.framework",
+              "target": "Lottie"
             }
           ]
         }
