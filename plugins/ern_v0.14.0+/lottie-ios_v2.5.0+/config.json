@@ -28,7 +28,7 @@
         }
       ],
       "addHeaderSearchPath": [
-        "\"$(SRCROOT)/{{{projectName}}}/Libraries/RollbarReactNative/**\""
+        "\"$(SRCROOT)/{{{projectName}}}/Libraries/Lottie/lottie-ios/Classes/PublicHeaders/**\""
       ]
     }
   }
