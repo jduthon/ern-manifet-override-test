@@ -19,12 +19,6 @@
         {
           "path": "Lottie/Lottie.xcodeproj",
           "group": "Libraries",
-          "frameworks": [
-            {
-              "name": "Lottie.framework",
-              "target": "Lottie_iOS"
-            }
-          ],
           "staticLibs": [
             {
               "name": "libLottie.a",
