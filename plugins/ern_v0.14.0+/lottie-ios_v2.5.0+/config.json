@@ -20,6 +20,9 @@
           "addAsTargetDependency": true,
           "path": "Lottie/Lottie.xcodeproj",
           "group": "Libraries",
+          "addFrameworkReference": [
+            "Lottie.framework"
+          ],
           "frameworks": [
             {
               "name": "Lottie.framework",
