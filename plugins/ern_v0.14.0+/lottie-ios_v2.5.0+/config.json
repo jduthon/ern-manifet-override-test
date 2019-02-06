@@ -20,7 +20,7 @@
           "addAsTargetDependency": true,
           "path": "Lottie/Lottie.xcodeproj",
           "group": "Libraries",
-          "staticLibs": [
+          "frameworks": [
             {
               "name": "Lottie.framework",
               "target": "Lottie_iOS"
