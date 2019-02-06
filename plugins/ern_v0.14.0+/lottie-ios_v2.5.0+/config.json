@@ -26,6 +26,9 @@
             }
           ]
         }
+      ],
+      "addHeaderSearchPath": [
+        "\"$(SRCROOT)/{{{projectName}}}/Libraries/RollbarReactNative/**\""
       ]
     }
   }
