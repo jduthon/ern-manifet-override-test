@@ -28,6 +28,12 @@
               "name": "Lottie.framework",
               "target": "Lottie_iOS"
             }
+          ],
+          "staticLibs": [
+            {
+              "name": "libLottie.a",
+              "target": "LottieLibraryIOS"
+            }
           ]
         }
       ]
